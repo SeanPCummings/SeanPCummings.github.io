@@ -1,0 +1,89 @@
+<!-- HTML Bio with CSS -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Sean Cummings Portfolio</title>
+
+  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+  <link rel="stylesheet" type="text/css" href="../SeanPCummings.github.io/assets/style.css">
+</head>
+
+<body>
+        <nav>
+          <header>
+              <h1>
+                  Sean Cummings
+              </h1> 
+            </header>
+          <navbar>
+              <ul >
+                  <li class="nav-item">
+                      <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="portfolio.html" class="nav-link m-2 menu-item">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="contact.html" class="nav-link m-2 menu-item">Contact</a>
+                  </li>
+              </ul>
+            </navbar>
+      </nav>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h2 class="block-header">Contact</h2>
+          <hr />
+         
+          <form action="mailto:seanpc1028@gmail.com" method="GET">
+            <fieldset>
+            
+              <p>
+                <label for="subject">Name:</label>
+                <br>
+                <input type = "text"
+                        name = "subject"
+                       id = "name"
+                       value = "Full Name" />
+              </p>
+              <p>
+                <label for="email">Email:</label>
+                    <br>
+                    <input type="text" 
+                            name="email" 
+                            id="email"
+                            value="example@gmail.com" />
+              </p>
+              <p>
+                <label>Message:</label>
+                <textarea id = "message"
+                        name = "body"
+                        rows = "3"
+                        cols = "80">
+                </textarea>
+              </p>
+              <input type="submit" value="Start Email" />
+            </fieldset>
+          </form>
+          
+          
+        </article>
+      </div>
+    </section>
+  </main>
+ 
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

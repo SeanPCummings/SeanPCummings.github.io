@@ -1,0 +1,175 @@
+html {
+    
+    background-image: url(myOwnBackground.jpg);
+    background-size: cover;
+    
+  }
+  body{
+      height: 100%;
+  }
+  nav{
+      background-color: #fff;
+      height: 50px;
+      
+  }
+  main {
+      padding-top: 30%;
+      height: 100%;
+      padding-right: 30%;
+      
+      
+  }
+  .block {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    height: 100%;
+   
+  }
+  .block-header {
+    color: #0e9e0e;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+  }
+  .photo {
+    float: left;
+    width: 25%;
+    height: 40%;
+    padding-right: 10%;
+    
+  }
+  header{
+      position: relative;
+      background-color: #0e9e0e;
+      display: inline;
+      color: white;
+      
+  }
+  /* Full name header in navbar*/
+  h1{
+      position: relative;
+      background-color: #0e9e0e;
+      display: inline;
+      left: 0;
+      padding-bottom: 22px;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  /*The 3 navbar elements*/
+  aside{
+      float: right;
+  }
+  ul {
+    display: inline;
+    right: 0;
+    
+  }
+  
+  li {
+      right: 0;
+      display: inline;
+      float: right;
+  }
+  a:link, a:visited {
+    background-color: #f07e14;
+    color: white;
+    padding: 16px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color: #d1190c;
+  }
+  /* End of navbar elements and link colors/buttons*/
+  /* Form text area stays within the background now*/
+  textarea{
+    width: 100%;
+    }
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      }
+      
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      /* Add some padding inside the card container */
+      .container {
+        padding: 2px 16px;
+      }
+      /* To get the cards to make a 2 column, 2 cards per row layout*/ 
+      #leftCard{
+          float: left;
+          width: 50%;
+      }
+      #rightCard{
+        float: right;
+        width: 50%;
+    }
+    /* Gets the card img to scale woth the viewers screen width*/
+    .card-img-top{
+        width: 20vw;
+        height: 20vw;
+    }
+    /* I liked the overlap of the background so I made the text readable on larger screens*/
+    .card-title{
+        color: white;
+    }
+    .card-text{
+        color: white;
+    }
+  @media screen and (max-width: 640px){
+    /* start of responsive navbar */  
+    nav{
+        height: 94px;
+    }  
+    header {
+        left: auto;
+      }
+      h1{
+        padding-bottom: 16px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      a:link, a:visited {
+      text-align: right;
+        }
+        ul {
+            display: block;
+            right: 0;
+            
+          }
+          
+          li {
+              right: 0;
+              display: block;
+              
+          }
+          #leftCard{
+            float: none;
+            width: 100%;
+        }
+        #rightCard{
+          float: none;
+          width: 100%;
+      }
+      .card-img-top{
+        width: 25%;
+        height: 25%;
+        }
+    .card-title{
+        color:black;
+    }
+    .card-text{
+        color: black;
+    }
+        /* end of responsive navbar */  
+        /*Contact text box */
+    @media screen and (min-width: 640px){
+        
+    }
+  }
