@@ -1,7 +1,7 @@
 html {
     
-    background-image: url(myOwnBackground.jpg);
-    background-size: cover;
+    background-image: url(./assets/myOwnBackgroundV2.jpg);
+    background-size: fill;
     
   }
   body{
